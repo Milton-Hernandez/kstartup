@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actions>
+        <action>
+            <actionName>CUSTOM-mvn-deploy-lin</actionName>
+            <displayName>mvn-deploy-linux</displayName>
+            <goals>
+                <goal>org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy-file</goal>
+            </goals>
+            <properties>
+                <file>./target/kstartup-1.0.0.jar</file>
+                <repositoryId>local-repo</repositoryId>
+                <url>file:///home/milton/Dropbox/code/java/mvn-repo</url>
+                <groupId>com.knobrix</groupId>
+                <artifactId>kstartup</artifactId>
+                <packaging>jar</packaging>
+                <version>1.0.0</version>
+            </properties>
+        </action>
+        <action>
+            <actionName>CUSTOM-mvn-deploy-win</actionName>
+            <displayName>mvn-deploy-win</displayName>
+            <goals>
+                <goal>org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy-file</goal>
+            </goals>
+            <properties>
+                <file>./target/kstartup-1.0.0.jar</file>
+                <repositoryId>local-repo</repositoryId>
+                <url>file://z/code/java/mvn-repo</url>
+                <groupId>com.knobrix</groupId>
+                <artifactId>kstartup</artifactId>
+                <packaging>jar</packaging>
+                <version>1.0.0</version>
+            </properties>
+        </action>
+    </actions>
