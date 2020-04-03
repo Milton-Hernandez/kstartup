@@ -7,9 +7,6 @@ import package3.Class3;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
-import java.io.IOException;
-import java.lang.reflect.Modifier;
-import java.util.Scanner;
 
 class FitnessTest {
 

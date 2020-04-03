@@ -42,6 +42,8 @@ public class Settings {
         ConfigLoader.One.setArgs(args);
         init();
     }
+    
+    //This is a comment
 
     public static void setConfig(String configClassName, Map<String,String> settings) {
         String CurFieldName =  "";
